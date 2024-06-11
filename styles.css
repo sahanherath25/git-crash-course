@@ -3,12 +3,16 @@
 }
 
 body{
+    width: 90%;
+    margin: 0 auto;
+    padding:100px 100px ;
     background-color: #1F2544;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     color: mintcream;
+    border: 1px solid mintcream;
 
 }
 
@@ -24,11 +28,12 @@ h1{
 }
 
 .intro{
-    width: 90%;
-    margin: 0 auto;
+
+
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 .image-container{
